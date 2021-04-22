@@ -37,4 +37,9 @@ public class CacheDemoController {
         return cacheDemoService.getPersonById(id);
     }
 
+    @PutMapping("/update/person")
+    public String updatePersonById(@RequestBody Person person){
+        return cacheDemoService.updatePersonById(person);
+    }
+
 }
