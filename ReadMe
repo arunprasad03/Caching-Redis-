@@ -1,0 +1,10 @@
+This project was demo for Spring Boot Caching with Redis
+
+Need : Redis and Jedis dependencies
+
+Annotations:
+
+@EnableCaching
+@Cachable(key="#id",value="Hash value")
+@CacheEvict
+@CachePut
